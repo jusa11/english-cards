@@ -1,0 +1,546 @@
+[
+  {
+    "id": 0,
+    "word": "daily basis",
+    "translation": "На ежедневной основе",
+    "example": "I exercise on a daily basis to stay healthy.",
+    "example_ru": "Я занимаюсь спортом каждый день, чтобы оставаться здоровым.",
+    "level": "B1"
+  },
+  {
+    "id": 1,
+    "word": "nest",
+    "translation": "Вкладывать / вложенный",
+    "example": "You can nest components inside each other in React.",
+    "example_ru": "Вы можете вкладывать компоненты друг в друга в React.",
+    "level": "B2"
+  },
+  {
+    "id": 2,
+    "word": "markup",
+    "translation": "Разметка",
+    "example": "HTML is used to create the markup for web pages.",
+    "example_ru": "HTML используется для создания разметки веб-страниц.",
+    "level": "B2"
+  },
+  {
+    "id": 3,
+    "word": "respond to events",
+    "translation": "Отвечать на события",
+    "example": "The button can respond to events like clicks or hovers.",
+    "example_ru": "Кнопка может реагировать на события, такие как клики или наведение.",
+    "level": "B2"
+  },
+  {
+    "id": 4,
+    "word": "made out of components",
+    "translation": "Сделан из компонентов",
+    "example": "The user interface is made out of reusable components.",
+    "example_ru": "Пользовательский интерфейс состоит из многоразовых компонентов.",
+    "level": "B2"
+  },
+  {
+    "id": 5,
+    "word": "piece",
+    "translation": "Часть",
+    "example": "This function is a key piece of the application.",
+    "example_ru": "Эта функция является ключевой частью приложения.",
+    "level": "A2"
+  },
+  {
+    "id": 6,
+    "word": "appearance",
+    "translation": "Внешний вид / отображение",
+    "example": "You can change the appearance of the website using CSS.",
+    "example_ru": "Вы можете изменить внешний вид сайта с помощью CSS.",
+    "level": "B1"
+  },
+  {
+    "id": 7,
+    "word": "entire",
+    "translation": "Весь / целый",
+    "example": "The entire team worked on the project together.",
+    "example_ru": "Вся команда работала над проектом вместе.",
+    "level": "A2"
+  },
+  {
+    "id": 8,
+    "word": "Now that you’ve declared",
+    "translation": "Теперь, когда вы объявили",
+    "example": "Now that you’ve declared the variable, you can use it.",
+    "example_ru": "Теперь, когда вы объявили переменную, вы можете её использовать.",
+    "level": "B2"
+  },
+  {
+    "id": 9,
+    "word": "Notice that <MyButton /> starts with a capital letter",
+    "translation": "Обратите внимание, что <MyButton /> начинается с заглавной буквы",
+    "example": "Notice that <MyButton /> starts with a capital letter to follow React conventions.",
+    "example_ru": "Обратите внимание, что <MyButton /> начинается с заглавной буквы в соответствии с соглашениями React.",
+    "level": "B2"
+  },
+  {
+    "id": 10,
+    "word": "Have a look",
+    "translation": "Посмотрите",
+    "example": "Have a look at the new design of the application.",
+    "example_ru": "Посмотрите на новый дизайн приложения.",
+    "level": "A2"
+  },
+  {
+    "id": 11,
+    "word": "specify",
+    "translation": "Указывать / задавать",
+    "example": "You need to specify the path to the file.",
+    "example_ru": "Вам нужно указать путь к файлу.",
+    "level": "B1"
+  },
+  {
+    "id": 12,
+    "word": "familiar",
+    "translation": "Знакомый / привычный",
+    "example": "This syntax looks familiar to JavaScript developers.",
+    "example_ru": "Этот синтаксис кажется знакомым разработчикам JavaScript.",
+    "level": "B1"
+  },
+  {
+    "id": 13,
+    "word": "above",
+    "translation": "Выше",
+    "example": "The code mentioned above works perfectly.",
+    "example_ru": "Код, упомянутый выше, работает идеально.",
+    "level": "A2"
+  },
+  {
+    "id": 14,
+    "word": "convenience",
+    "translation": "Удобство",
+    "example": "This library is designed for convenience and ease of use.",
+    "example_ru": "Эта библиотека разработана для удобства и простоты использования.",
+    "level": "B2"
+  },
+  {
+    "id": 15,
+    "word": "stricter",
+    "translation": "Более строгий",
+    "example": "TypeScript has stricter rules than JavaScript.",
+    "example_ru": "TypeScript имеет более строгие правила, чем JavaScript.",
+    "level": "B2"
+  },
+  {
+    "id": 16,
+    "word": "same",
+    "translation": "Такой же / одинаковый",
+    "example": "Both components behave in the same way.",
+    "example_ru": "Оба компонента ведут себя одинаково.",
+    "level": "A2"
+  },
+  {
+    "id": 17,
+    "word": "prescribe",
+    "translation": "Предписывать / задавать",
+    "example": "The framework may prescribe a specific folder structure.",
+    "example_ru": "Фреймворк может предписывать определённую структуру папок.",
+    "level": "B2"
+  },
+  {
+    "id": 18,
+    "word": "lets you put",
+    "translation": "Позволяет поместить",
+    "example": "This function lets you put elements into an array.",
+    "example_ru": "Эта функция позволяет поместить элементы в массив.",
+    "level": "B1"
+  },
+  {
+    "id": 19,
+    "word": "Curly braces",
+    "translation": "Фигурные скобки",
+    "example": "Use curly braces to include JavaScript expressions in JSX.",
+    "example_ru": "Используйте фигурные скобки, чтобы включить выражения JavaScript в JSX.",
+    "level": "B2"
+  },
+  {
+    "id": 20,
+    "word": "so that",
+    "translation": "Чтобы",
+    "example": "Organize your code so that it is easy to read.",
+    "example_ru": "Организуйте код так, чтобы его было легко читать.",
+    "level": "A2"
+  },
+  {
+    "id": 21,
+    "word": "embed",
+    "translation": "Встраивать",
+    "example": "You can embed videos directly into the webpage.",
+    "example_ru": "Вы можете встраивать видео прямо на веб-страницу.",
+    "level": "B1"
+  },
+  {
+    "id": 22,
+    "word": "instead of quotes",
+    "translation": "Вместо кавычек",
+    "example": "Use curly braces instead of quotes for dynamic values in JSX.",
+    "example_ru": "Используйте фигурные скобки вместо кавычек для динамических значений в JSX.",
+    "level": "B2"
+  },
+  {
+    "id": 23,
+    "word": "then",
+    "translation": "Затем",
+    "example": "Save the file and then run the program.",
+    "example_ru": "Сохраните файл и затем запустите программу.",
+    "level": "A1"
+  },
+  {
+    "id": 24,
+    "word": "passes",
+    "translation": "Передаёт",
+    "example": "The function passes data to the child component.",
+    "example_ru": "Функция передаёт данные дочернему компоненту.",
+    "level": "B2"
+  },
+  {
+    "id": 25,
+    "word": "can put",
+    "translation": "Можно поместить",
+    "example": "You can put multiple elements inside a single div.",
+    "example_ru": "Можно поместить несколько элементов в один div.",
+    "level": "B1"
+  },
+  {
+    "id": 26,
+    "word": "complex expressions",
+    "translation": "Сложные выражения",
+    "example": "Complex expressions can be used inside curly braces in JSX.",
+    "example_ru": "Сложные выражения можно использовать внутри фигурных скобок в JSX.",
+    "level": "B2"
+  },
+  {
+    "id": 27,
+    "word": "inside",
+    "translation": "Внутри",
+    "example": "The data is stored inside an array.",
+    "example_ru": "Данные хранятся внутри массива.",
+    "level": "A2"
+  },
+  {
+    "id": 28,
+    "word": "too",
+    "translation": "Тоже",
+    "example": "This feature is useful for developers too.",
+    "example_ru": "Эта функция полезна и для разработчиков тоже.",
+    "level": "A1"
+  },
+  {
+    "id": 29,
+    "word": "string concatenation",
+    "translation": "Конкатенация строк",
+    "example": "String concatenation can combine multiple strings into one.",
+    "example_ru": "Конкатенация строк может объединить несколько строк в одну.",
+    "level": "B2"
+  },
+  {
+    "id": 30,
+    "word": "depend",
+    "translation": "Зависеть",
+    "example": "The output may depend on the input provided.",
+    "example_ru": "Результат может зависеть от предоставленных данных.",
+    "level": "B1"
+  },
+  {
+    "id": 31,
+    "word": "Instead",
+    "translation": "Вместо этого",
+    "example": "Instead of hardcoding, use a variable.",
+    "example_ru": "Вместо жёсткого кодирования используйте переменную.",
+    "level": "B1"
+  },
+  {
+    "id": 32,
+    "word": "prefer",
+    "translation": "Предпочитать",
+    "example": "Developers often prefer using functional components.",
+    "example_ru": "Разработчики часто предпочитают использовать функциональные компоненты.",
+    "level": "B1"
+  },
+  {
+    "id": 33,
+    "word": "approaches",
+    "translation": "Подходы",
+    "example": "There are several approaches to solving this problem.",
+    "example_ru": "Существует несколько подходов к решению этой проблемы.",
+    "level": "B2"
+  },
+  {
+    "id": 34,
+    "word": "specifying",
+    "translation": "Указание / спецификация",
+    "example": "Specifying the type improves code reliability.",
+    "example_ru": "Указание типа повышает надёжность кода.",
+    "level": "B2"
+  },
+  {
+    "id": 35,
+    "word": "unfamiliar",
+    "translation": "Незнакомый / непривычный",
+    "example": "This syntax may seem unfamiliar to beginners.",
+    "example_ru": "Этот синтаксис может показаться непривычным для новичков.",
+    "level": "B1"
+  },
+  {
+    "id": 36,
+    "word": "rely",
+    "translation": "Полагаться",
+    "example": "You can rely on this library for consistent results.",
+    "example_ru": "Вы можете полагаться на эту библиотеку для получения стабильных результатов.",
+    "level": "B2"
+  },
+  {
+    "id": 37,
+    "word": "et’s say you have an array",
+    "translation": "Допустим, у вас есть массив",
+    "example": "Let’s say you have an array of numbers to process.",
+    "example_ru": "Допустим, у вас есть массив чисел для обработки.",
+    "level": "B1"
+  },
+  {
+    "id": 38,
+    "word": "For each",
+    "translation": "Для каждого",
+    "example": "For each item in the list, render a component.",
+    "example_ru": "Для каждого элемента в списке рендерите компонент.",
+    "level": "B2"
+  },
+  {
+    "id": 39,
+    "word": "pass",
+    "translation": "Передавать",
+    "example": "You can pass props to a child component.",
+    "example_ru": "Вы можете передавать пропсы дочернему компоненту.",
+    "level": "B2"
+  },
+  {
+    "id": 40,
+    "word": "among",
+    "translation": "Среди",
+    "example": "This feature is popular among developers.",
+    "example_ru": "Эта функция популярна среди разработчиков.",
+    "level": "B1"
+  },
+  {
+    "id": 41,
+    "word": "siblings",
+    "translation": "Сиблинги / элементы на одном уровне",
+    "example": "Components that are siblings share the same parent.",
+    "example_ru": "Компоненты, которые являются сиблингами, имеют одного родителя.",
+    "level": "B2"
+  },
+  {
+    "id": 42,
+    "word": "happened",
+    "translation": "Произошло",
+    "example": "An error happened during the process.",
+    "example_ru": "Во время процесса произошла ошибка.",
+    "level": "A2"
+  },
+  {
+    "id": 43,
+    "word": "later insert",
+    "translation": "Позднее вставить",
+    "example": "You can later insert new elements into the array.",
+    "example_ru": "Вы можете позднее вставить новые элементы в массив.",
+    "level": "B1"
+  },
+  {
+    "id": 44,
+    "word": "parentheses",
+    "translation": "Скобки / круглые скобки",
+    "example": "Use parentheses to group expressions in JavaScript.",
+    "example_ru": "Используйте круглые скобки для группировки выражений в JavaScript.",
+    "level": "B1"
+  },
+  {
+    "id": 45,
+    "word": "it down",
+    "translation": "Запишите это",
+    "example": "Write it down to avoid forgetting the idea.",
+    "example_ru": "Запишите это, чтобы не забыть идею.",
+    "level": "A2"
+  },
+  {
+    "id": 46,
+    "word": "The first time",
+    "translation": "В первый раз",
+    "example": "The first time you run the code, it may take longer.",
+    "example_ru": "В первый раз, когда вы запускаете код, это может занять больше времени.",
+    "level": "B1"
+  },
+  {
+    "id": 47,
+    "word": "And so on",
+    "translation": "И так далее",
+    "example": "You can add items like apples, oranges, and so on.",
+    "example_ru": "Вы можете добавить элементы, такие как яблоки, апельсины и так далее.",
+    "level": "A2"
+  },
+  {
+    "id": 48,
+    "word": "multiple times",
+    "translation": "Несколько раз",
+    "example": "The function was called multiple times during testing.",
+    "example_ru": "Функция была вызвана несколько раз во время тестирования.",
+    "level": "B1"
+  },
+  {
+    "id": 49,
+    "word": "each will geT",
+    "translation": "Каждый будет",
+    "example": "Each component will get its own unique key.",
+    "example_ru": "Каждый компонент будет иметь свой уникальный ключ.",
+    "level": "B2"
+  },
+  {
+    "id": 50,
+    "word": "separately",
+    "translation": "Отдельно",
+    "example": "Handle each task separately for better clarity.",
+    "example_ru": "Обрабатывайте каждую задачу отдельно для большей ясности.",
+    "level": "B1"
+  },
+  {
+    "id": 51,
+    "word": "affect",
+    "translation": "Влиять",
+    "example": "This change will affect the entire system.",
+    "example_ru": "Это изменение повлияет на всю систему.",
+    "level": "B1"
+  },
+  {
+    "id": 52,
+    "word": "built-in Hook provided by",
+    "translation": "Встроенный хук, предоставляемый",
+    "example": "useState is a built-in Hook provided by React.",
+    "example_ru": "useState — это встроенный хук, предоставляемый React.",
+    "level": "B2"
+  },
+  {
+    "id": 53,
+    "word": "reference",
+    "translation": "Ссылка",
+    "example": "You can use a reference to access the DOM element.",
+    "example_ru": "Вы можете использовать ссылку для доступа к элементу DOM.",
+    "level": "B2"
+  },
+  {
+    "id": 54,
+    "word": "the existing ones",
+    "translation": "Существующие",
+    "example": "Add new features without modifying the existing ones.",
+    "example_ru": "Добавляйте новые функции, не изменяя существующие.",
+    "level": "B1"
+  },
+  {
+    "id": 55,
+    "word": "Hooks are more restrictive",
+    "translation": "Хуки более ограничительные",
+    "example": "Hooks are more restrictive than class-based components.",
+    "example_ru": "Хуки более ограничительные, чем компоненты на основе классов.",
+    "level": "B2"
+  },
+  {
+    "id": 56,
+    "word": "extract",
+    "translation": "Извлекать / достать",
+    "example": "You can extract data from an API response.",
+    "example_ru": "Вы можете извлечь данные из ответа API.",
+    "level": "B2"
+  },
+  {
+    "id": 57,
+    "word": "Sharing data",
+    "translation": "Обмен данными",
+    "example": "Sharing data between components is a common task.",
+    "example_ru": "Обмен данными между компонентами — распространённая задача.",
+    "level": "B2"
+  },
+  {
+    "id": 58,
+    "word": "independent",
+    "translation": "Независимый",
+    "example": "Each module should be independent of others.",
+    "example_ru": "Каждый модуль должен быть независим от других.",
+    "level": "B2"
+  },
+  {
+    "id": 59,
+    "word": "either",
+    "translation": "Либо",
+    "example": "You can choose either option to proceed.",
+    "example_ru": "Вы можете выбрать любой из вариантов, чтобы продолжить.",
+    "level": "A2"
+  },
+  {
+    "id": 60,
+    "word": "both",
+    "translation": "Оба",
+    "example": "Both components need to be updated.",
+    "example_ru": "Оба компонента нужно обновить.",
+    "level": "A2"
+  },
+  {
+    "id": 61,
+    "word": "together",
+    "translation": "Вместе",
+    "example": "These features work better together.",
+    "example_ru": "Эти функции работают лучше вместе.",
+    "level": "A2"
+  },
+  {
+    "id": 62,
+    "word": "handler",
+    "translation": "Обработчик",
+    "example": "Add an event handler to the button click.",
+    "example_ru": "Добавьте обработчик событий для клика по кнопке.",
+    "level": "B2"
+  },
+  {
+    "id": 63,
+    "word": "By now",
+    "translation": "На данный момент",
+    "example": "By now, you should understand the basics of React.",
+    "example_ru": "На данный момент вы должны понимать основы React.",
+    "level": "B1"
+  },
+  {
+    "id": 64,
+    "word": "during",
+    "translation": "Во время",
+    "example": "An error occurred during the rendering process.",
+    "example_ru": "Ошибка произошла во время процесса рендеринга.",
+    "level": "A2"
+  },
+  {
+    "id": 65,
+    "word": "assume",
+    "translation": "Предполагать",
+    "example": "You can assume the input is valid for now.",
+    "example_ru": "Пока вы можете предположить, что вводные данные корректны.",
+    "level": "B1"
+  },
+  {
+    "id": 66,
+    "word": "existing",
+    "translation": "Существующий",
+    "example": "Update the existing code to improve performance.",
+    "example_ru": "Обновите существующий код для повышения производительности.",
+    "level": "B1"
+  },
+  {
+    "id": 67,
+    "word": "techniques",
+    "translation": "Методы / техники",
+    "example": "Learn modern techniques for optimizing web applications.",
+    "example_ru": "Изучите современные техники для оптимизации веб-приложений.",
+    "level": "B2"
+  }
+]

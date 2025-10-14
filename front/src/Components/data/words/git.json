@@ -1,0 +1,586 @@
+[
+  {
+    "id": 0,
+    "word": "Issues",
+    "translation": "Задачи / проблемы",
+    "example": "The project has several open issues that need attention.",
+    "example_ru": "В проекте есть несколько открытых задач, требующих внимания.",
+    "level": "B1"
+  },
+  {
+    "id": 1,
+    "word": "Pull Request",
+    "translation": "Запрос на слияние",
+    "example": "I submitted a pull request to add a new feature.",
+    "example_ru": "Я отправил запрос на слияние, чтобы добавить новую функцию.",
+    "level": "B2"
+  },
+  {
+    "id": 2,
+    "word": "Insights",
+    "translation": "Аналитика / сведения",
+    "example": "The insights page shows repository activity trends.",
+    "example_ru": "Страница аналитики показывает тенденции активности репозитория.",
+    "level": "B2"
+  },
+  {
+    "id": 3,
+    "word": "provided",
+    "translation": "Предоставленный",
+    "example": "The provided documentation explains the API usage.",
+    "example_ru": "Предоставленная документация объясняет использование API.",
+    "level": "B1"
+  },
+  {
+    "id": 4,
+    "word": "Activity",
+    "translation": "Активность",
+    "example": "Recent activity includes several commits and comments.",
+    "example_ru": "Недавняя активность включает несколько коммитов и комментариев.",
+    "level": "B1"
+  },
+  {
+    "id": 5,
+    "word": "forks",
+    "translation": "Форки / ответвления",
+    "example": "The repository has multiple forks created by contributors.",
+    "example_ru": "Репозиторий имеет несколько форков, созданных участниками.",
+    "level": "B2"
+  },
+  {
+    "id": 6,
+    "word": "Releases",
+    "translation": "Релизы / выпуски",
+    "example": "The latest releases include bug fixes and new features.",
+    "example_ru": "Последние релизы включают исправления ошибок и новые функции.",
+    "level": "B2"
+  },
+  {
+    "id": 7,
+    "word": "Deployments",
+    "translation": "Развертывания",
+    "example": "Automate deployments to streamline the release process.",
+    "example_ru": "Автоматизируйте развертывания, чтобы упростить процесс выпуска.",
+    "level": "B2"
+  },
+  {
+    "id": 8,
+    "word": "Ability",
+    "translation": "Способность / возможность",
+    "example": "This tool gives you the ability to track progress.",
+    "example_ru": "Этот инструмент даёт возможность отслеживать прогресс.",
+    "level": "B1"
+  },
+  {
+    "id": 9,
+    "word": "Labels",
+    "translation": "Метки",
+    "example": "Add labels to issues for better organization.",
+    "example_ru": "Добавляйте метки к задачам для лучшей организации.",
+    "level": "B1"
+  },
+  {
+    "id": 10,
+    "word": "Milestones",
+    "translation": "Этапы / контрольные точки",
+    "example": "Set milestones to track project deadlines.",
+    "example_ru": "Устанавливайте этапы для отслеживания сроков проекта.",
+    "level": "B2"
+  },
+  {
+    "id": 11,
+    "word": "Assignees",
+    "translation": "Исполнители / назначенные",
+    "example": "Assign issues to specific assignees for clarity.",
+    "example_ru": "Назначайте задачи конкретным исполнителям для ясности.",
+    "level": "B1"
+  },
+  {
+    "id": 12,
+    "word": "Newest",
+    "translation": "Самый новый / последние",
+    "example": "Check the newest updates in the repository.",
+    "example_ru": "Проверьте последние обновления в репозитории.",
+    "level": "A2"
+  },
+  {
+    "id": 13,
+    "word": "adjusting",
+    "translation": "Настройка / корректировка",
+    "example": "Adjusting the settings improved performance.",
+    "example_ru": "Настройка параметров улучшила производительность.",
+    "level": "B1"
+  },
+  {
+    "id": 14,
+    "word": "contributors",
+    "translation": "Участники / контрибьюторы",
+    "example": "The project has many contributors from around the world.",
+    "example_ru": "В проекте участвуют многие контрибьюторы со всего мира.",
+    "level": "B1"
+  },
+  {
+    "id": 15,
+    "word": "collaborate",
+    "translation": "Сотрудничать",
+    "example": "Developers collaborate on code through pull requests.",
+    "example_ru": "Разработчики сотрудничают над кодом через запросы на слияние.",
+    "level": "B1"
+  },
+  {
+    "id": 16,
+    "word": "appear",
+    "translation": "Появляться",
+    "example": "New issues appear in the tracker daily.",
+    "example_ru": "Новые задачи появляются в трекере ежедневно.",
+    "level": "A2"
+  },
+  {
+    "id": 17,
+    "word": "searchable",
+    "translation": "Доступный для поиска",
+    "example": "The database is fully searchable for quick access.",
+    "example_ru": "База данных полностью доступна для поиска и быстрого доступа.",
+    "level": "B2"
+  },
+  {
+    "id": 18,
+    "word": "Dismise",
+    "translation": "Отклонить / закрыть",
+    "example": "You can dismiss notifications after reviewing them.",
+    "example_ru": "Вы можете отклонить уведомления после их просмотра.",
+    "level": "B1"
+  },
+  {
+    "id": 19,
+    "word": "Workflow",
+    "translation": "Рабочий процесс",
+    "example": "Automate your workflow to save time.",
+    "example_ru": "Автоматизируйте рабочий процесс, чтобы сэкономить время.",
+    "level": "B2"
+  },
+  {
+    "id": 20,
+    "word": "Perfomance",
+    "translation": "Производительность",
+    "example": "Optimize code to improve application performance.",
+    "example_ru": "Оптимизируйте код для повышения производительности приложения.",
+    "level": "B2"
+  },
+  {
+    "id": 21,
+    "word": "Avg",
+    "translation": "Среднее",
+    "example": "The avg response time was under 200ms.",
+    "example_ru": "Среднее время ответа составило менее 200 мс.",
+    "level": "B1"
+  },
+  {
+    "id": 22,
+    "word": "queue",
+    "translation": "Очередь",
+    "example": "Tasks are processed in a queue for efficiency.",
+    "example_ru": "Задачи обрабатываются в очереди для повышения эффективности.",
+    "level": "B1"
+  },
+  {
+    "id": 23,
+    "word": "failure rate",
+    "translation": "Процент отказов / уровень сбоев",
+    "example": "The failure rate of the system is very low.",
+    "example_ru": "Уровень сбоев системы очень низкий.",
+    "level": "B2"
+  },
+  {
+    "id": 24,
+    "word": "usage",
+    "translation": "Использование",
+    "example": "Monitor resource usage to optimize performance.",
+    "example_ru": "Следите за использованием ресурсов для оптимизации производительности.",
+    "level": "B1"
+  },
+  {
+    "id": 25,
+    "word": "great",
+    "translation": "Отличный",
+    "example": "This tool is great for debugging code.",
+    "example_ru": "Этот инструмент отличный для отладки кода.",
+    "level": "A2"
+  },
+  {
+    "id": 26,
+    "word": "great way",
+    "translation": "Отличный способ",
+    "example": "Using version control is a great way to manage code.",
+    "example_ru": "Использование контроля версий — отличный способ управления кодом.",
+    "level": "B1"
+  },
+  {
+    "id": 27,
+    "word": "Timeline",
+    "translation": "Хронология / временная шкала",
+    "example": "The timeline shows all recent project updates.",
+    "example_ru": "Хронология показывает все недавние обновления проекта.",
+    "level": "B1"
+  },
+  {
+    "id": 28,
+    "word": "Timeline of the most recent",
+    "translation": "Хронология последних событий",
+    "example": "The timeline of the most recent commits is available online.",
+    "example_ru": "Хронология последних коммитов доступна онлайн.",
+    "level": "B2"
+  },
+  {
+    "id": 29,
+    "word": "network",
+    "translation": "Сеть",
+    "example": "The application communicates over a secure network.",
+    "example_ru": "Приложение взаимодействует через защищённую сеть.",
+    "level": "B1"
+  },
+  {
+    "id": 30,
+    "word": "Dependency",
+    "translation": "Зависимость",
+    "example": "This module has a dependency on a third-party library.",
+    "example_ru": "Этот модуль зависит от сторонней библиотеки.",
+    "level": "B2"
+  },
+  {
+    "id": 31,
+    "word": "transitive",
+    "translation": "Транзитивная (косвенная)",
+    "example": "Transitive dependencies are included automatically.",
+    "example_ru": "Транзитивные зависимости включаются автоматически.",
+    "level": "B2"
+  },
+  {
+    "id": 32,
+    "word": "within",
+    "translation": "Внутри / в пределах",
+    "example": "Complete the task within the given timeframe.",
+    "example_ru": "Завершайте задачу в пределах заданного времени.",
+    "level": "B1"
+  },
+  {
+    "id": 33,
+    "word": "insertions",
+    "translation": "Вставки",
+    "example": "The commit includes 50 insertions and 20 deletions.",
+    "example_ru": "Коммит включает 50 вставок и 20 удалений.",
+    "level": "B2"
+  },
+  {
+    "id": 34,
+    "word": "linkify",
+    "translation": "Превращать в ссылку",
+    "example": "The function can linkify URLs in the text.",
+    "example_ru": "Функция может превращать URL-адреса в тексте в ссылки.",
+    "level": "B2"
+  },
+  {
+    "id": 35,
+    "word": "external",
+    "translation": "Внешний",
+    "example": "The project uses external APIs for data retrieval.",
+    "example_ru": "Проект использует внешние API для получения данных.",
+    "level": "B1"
+  },
+  {
+    "id": 36,
+    "word": "references",
+    "translation": "Ссылки / упоминания",
+    "example": "The issue includes references to related bugs.",
+    "example_ru": "Задача содержит ссылки на связанные ошибки.",
+    "level": "B1"
+  },
+  {
+    "id": 37,
+    "word": "organizes",
+    "translation": "Организует",
+    "example": "The tool organizes tasks into categories.",
+    "example_ru": "Инструмент организует задачи по категориям.",
+    "level": "B1"
+  },
+  {
+    "id": 38,
+    "word": "into",
+    "translation": "В / внутрь",
+    "example": "Divide the project into smaller modules.",
+    "example_ru": "Разделите проект на меньшие модули.",
+    "level": "A2"
+  },
+  {
+    "id": 39,
+    "word": "actionable",
+    "translation": "Применимый / готовый к действию",
+    "example": "Provide actionable feedback to improve the code.",
+    "example_ru": "Предоставляйте применимую обратную связь для улучшения кода.",
+    "level": "B2"
+  },
+  {
+    "id": 40,
+    "word": "Launchpad",
+    "translation": "Стартовая площадка",
+    "example": "The platform serves as a launchpad for new projects.",
+    "example_ru": "Платформа служит стартовой площадкой для новых проектов.",
+    "level": "B2"
+  },
+  {
+    "id": 41,
+    "word": "all in",
+    "translation": "Все вместе / полностью",
+    "example": "The team went all in to meet the deadline.",
+    "example_ru": "Команда вложилась полностью, чтобы уложиться в срок.",
+    "level": "B1"
+  },
+  {
+    "id": 42,
+    "word": "hub",
+    "translation": "Узел / центр",
+    "example": "GitHub acts as a hub for collaborative coding.",
+    "example_ru": "GitHub выступает в качестве центра для совместной разработки.",
+    "level": "B2"
+  },
+  {
+    "id": 43,
+    "word": "decide",
+    "translation": "Решать",
+    "example": "You need to decide which feature to implement first.",
+    "example_ru": "Вам нужно решить, какую функцию реализовать первой.",
+    "level": "A2"
+  },
+  {
+    "id": 44,
+    "word": "suggest",
+    "translation": "Предлагать",
+    "example": "I suggest adding comments to clarify the code.",
+    "example_ru": "Я предлагаю добавить комментарии для пояснения кода.",
+    "level": "B1"
+  },
+  {
+    "id": 45,
+    "word": "provides",
+    "translation": "Предоставляет",
+    "example": "The library provides useful utilities for developers.",
+    "example_ru": "Библиотека предоставляет полезные утилиты для разработчиков.",
+    "level": "B1"
+  },
+  {
+    "id": 46,
+    "word": "Squach",
+    "translation": "Объединить коммиты",
+    "example": "Squash your commits before submitting a pull request.",
+    "example_ru": "Объедините свои коммиты перед отправкой запроса на слияние.",
+    "level": "B2"
+  },
+  {
+    "id": 47,
+    "word": "ahead",
+    "translation": "Впереди",
+    "example": "Your branch is two commits ahead of the main branch.",
+    "example_ru": "Ваша ветка на два коммита опережает основную ветку.",
+    "level": "B2"
+  },
+  {
+    "id": 48,
+    "word": "Compare",
+    "translation": "Сравнить",
+    "example": "Compare the changes between two branches.",
+    "example_ru": "Сравните изменения между двумя ветками.",
+    "level": "B1"
+  },
+  {
+    "id": 49,
+    "word": "feature",
+    "translation": "Функция / возможность",
+    "example": "The new feature enhances user experience.",
+    "example_ru": "Новая функция улучшает пользовательский опыт.",
+    "level": "B1"
+  },
+  {
+    "id": 50,
+    "word": "detached",
+    "translation": "Отсоединённый / отдельный",
+    "example": "The branch is in a detached state after checkout.",
+    "example_ru": "Ветка находится в отсоединённом состоянии после checkout.",
+    "level": "B2"
+  },
+  {
+    "id": 51,
+    "word": "look around",
+    "translation": "Осмотреться",
+    "example": "Take some time to look around the codebase.",
+    "example_ru": "Потратьте время, чтобы осмотреться в кодовой базе.",
+    "level": "B1"
+  },
+  {
+    "id": 52,
+    "word": "discard",
+    "translation": "Отбросить / отменить",
+    "example": "Discard changes if they are not needed.",
+    "example_ru": "Отбросьте изменения, если они не нужны.",
+    "level": "B1"
+  },
+  {
+    "id": 53,
+    "word": "impacting",
+    "translation": "Влияющий",
+    "example": "This bug is impacting the application’s performance.",
+    "example_ru": "Эта ошибка влияет на производительность приложения.",
+    "level": "B2"
+  },
+  {
+    "id": 54,
+    "word": "prompted",
+    "translation": "Вызванный / побуждённый",
+    "example": "The update was prompted by user feedback.",
+    "example_ru": "Обновление было вызвано отзывами пользователей.",
+    "level": "B2"
+  },
+  {
+    "id": 55,
+    "word": "during",
+    "translation": "Во время",
+    "example": "An error occurred during the deployment process.",
+    "example_ru": "Ошибка произошла во время процесса развертывания.",
+    "level": "A2"
+  },
+  {
+    "id": 56,
+    "word": "Keep",
+    "translation": "Сохранять",
+    "example": "Keep your code clean and well-documented.",
+    "example_ru": "Сохраняйте код чистым и хорошо задокументированным.",
+    "level": "A2"
+  },
+  {
+    "id": 57,
+    "word": "across",
+    "translation": "Через / по",
+    "example": "Share resources across multiple projects.",
+    "example_ru": "Делитесь ресурсами между несколькими проектами.",
+    "level": "B1"
+  },
+  {
+    "id": 58,
+    "word": "fetch",
+    "translation": "Извлечь / получить",
+    "example": "Fetch the latest changes from the remote repository.",
+    "example_ru": "Извлеките последние изменения из удалённого репозитория.",
+    "level": "B2"
+  },
+  {
+    "id": 59,
+    "word": "case",
+    "translation": "Случай / пример",
+    "example": "This is a common use case for the feature.",
+    "example_ru": "Это распространённый случай использования функции.",
+    "level": "B1"
+  },
+  {
+    "id": 60,
+    "word": "predict",
+    "translation": "Предсказывать",
+    "example": "The model can predict user behavior accurately.",
+    "example_ru": "Модель может точно предсказывать поведение пользователей.",
+    "level": "B2"
+  },
+  {
+    "id": 61,
+    "word": "habits",
+    "translation": "Привычки",
+    "example": "Analyze user habits to improve the application.",
+    "example_ru": "Анализируйте привычки пользователей, чтобы улучшить приложение.",
+    "level": "B1"
+  },
+  {
+    "id": 62,
+    "word": "spend",
+    "translation": "Тратить",
+    "example": "Don’t spend too much time on minor issues.",
+    "example_ru": "Не тратьте слишком много времени на мелкие проблемы.",
+    "level": "A2"
+  },
+  {
+    "id": 63,
+    "word": "indent",
+    "translation": "Отступ",
+    "example": "Properly indent your code for readability.",
+    "example_ru": "Правильно делайте отступы в коде для читаемости.",
+    "level": "B1"
+  },
+  {
+    "id": 64,
+    "word": "Clear out the clutter",
+    "translation": "Убери беспорядок",
+    "example": "Clear out the clutter in your codebase to improve maintainability.",
+    "example_ru": "Уберите беспорядок в кодовой базе, чтобы улучшить её поддерживаемость.",
+    "level": "B2"
+  },
+  {
+    "id": 65,
+    "word": "properly",
+    "translation": "Должным образом / правильно",
+    "example": "Ensure the function works properly before deployment.",
+    "example_ru": "Убедитесь, что функция работает правильно перед развертыванием.",
+    "level": "B1"
+  },
+  {
+    "id": 66,
+    "word": "until",
+    "translation": "До / пока",
+    "example": "Wait until the tests pass before merging.",
+    "example_ru": "Ждите, пока тесты не пройдут, перед слиянием.",
+    "level": "A2"
+  },
+  {
+    "id": 67,
+    "word": "exposes",
+    "translation": "Раскрывает / делает доступным",
+    "example": "The API exposes endpoints for data access.",
+    "example_ru": "API раскрывает конечные точки для доступа к данным.",
+    "level": "B2"
+  },
+  {
+    "id": 68,
+    "word": "callable",
+    "translation": "Вызываемый",
+    "example": "This function is callable from any module.",
+    "example_ru": "Эта функция вызываемая из любого модуля.",
+    "level": "B2"
+  },
+  {
+    "id": 69,
+    "word": "establish",
+    "translation": "Устанавливать / создавать",
+    "example": "Establish a connection to the database first.",
+    "example_ru": "Сначала установите соединение с базой данных.",
+    "level": "B1"
+  },
+  {
+    "id": 70,
+    "word": "destination",
+    "translation": "Пункт назначения / цель",
+    "example": "Specify the destination for the deployment.",
+    "example_ru": "Укажите пункт назначения для развертывания.",
+    "level": "B1"
+  },
+  {
+    "id": 71,
+    "word": "proprietary",
+    "translation": "Проприетарный / частный",
+    "example": "The software uses proprietary algorithms.",
+    "example_ru": "Программное обеспечение использует проприетарные алгоритмы.",
+    "level": "B2"
+  },
+  {
+    "id": 72,
+    "word": "don't stick to the default",
+    "translation": "Не ограничивайся настройками по умолчанию",
+    "example": "Don’t stick to the default settings; customize them for better results.",
+    "example_ru": "Не ограничивайтесь настройками по умолчанию; настройте их для лучших результатов.",
+    "level": "B2"
+  }
+]

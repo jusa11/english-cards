@@ -1,0 +1,434 @@
+[
+  {
+    "id": 0,
+    "word": "habits",
+    "translation": "Привычки",
+    "example": "Developing good study habits is essential for success.",
+    "example_ru": "Развитие хороших учебных привычек необходимо для успеха.",
+    "level": "B1"
+  },
+  {
+    "id": 1,
+    "word": "spend",
+    "translation": "Тратить",
+    "example": "I spend two hours every day reading books.",
+    "example_ru": "Я трачу два часа каждый день на чтение книг.",
+    "level": "A2"
+  },
+  {
+    "id": 2,
+    "word": "odd",
+    "translation": "Странный / нечётный",
+    "example": "It’s odd that he didn’t show up to the meeting.",
+    "example_ru": "Странно, что он не явился на встречу.",
+    "level": "B1"
+  },
+  {
+    "id": 3,
+    "word": "fell",
+    "translation": "Упал / упасть",
+    "example": "She tripped and fell on the stairs.",
+    "example_ru": "Она споткнулась и упала на лестнице.",
+    "level": "A2"
+  },
+  {
+    "id": 4,
+    "word": "about",
+    "translation": "О / примерно",
+    "example": "We talked about our plans for the weekend.",
+    "example_ru": "Мы говорили о наших планах на выходные.",
+    "level": "A1"
+  },
+  {
+    "id": 5,
+    "word": "again",
+    "translation": "Снова",
+    "example": "Can you repeat that again, please?",
+    "example_ru": "Можете повторить это ещё раз, пожалуйста?",
+    "level": "A1"
+  },
+  {
+    "id": 6,
+    "word": "always",
+    "translation": "Всегда",
+    "example": "She always arrives early for meetings.",
+    "example_ru": "Она всегда приходит на встречи раньше.",
+    "level": "A1"
+  },
+  {
+    "id": 7,
+    "word": "ask",
+    "translation": "Спрашивать",
+    "example": "Don’t hesitate to ask if you need help.",
+    "example_ru": "Не стесняйтесь спрашивать, если нужна помощь.",
+    "level": "A1"
+  },
+  {
+    "id": 8,
+    "word": "because",
+    "translation": "Потому что",
+    "example": "I stayed home because it was raining.",
+    "example_ru": "Я остался дома, потому что шёл дождь.",
+    "level": "A1"
+  },
+  {
+    "id": 9,
+    "word": "before",
+    "translation": "До / раньше",
+    "example": "Finish your homework before dinner.",
+    "example_ru": "Закончи домашнюю работу до ужина.",
+    "level": "A1"
+  },
+  {
+    "id": 10,
+    "word": "best",
+    "translation": "Лучший",
+    "example": "This is the best coffee I’ve ever tasted.",
+    "example_ru": "Это лучший кофе, который я когда-либо пробовал.",
+    "level": "A2"
+  },
+  {
+    "id": 11,
+    "word": "better",
+    "translation": "Лучше",
+    "example": "I feel much better after resting.",
+    "example_ru": "Я чувствую себя гораздо лучше после отдыха.",
+    "level": "A2"
+  },
+  {
+    "id": 12,
+    "word": "both",
+    "translation": "Оба",
+    "example": "Both teams played exceptionally well.",
+    "example_ru": "Обе команды сыграли исключительно хорошо.",
+    "level": "A2"
+  },
+  {
+    "id": 13,
+    "word": "bring",
+    "translation": "Приносить",
+    "example": "Please bring your laptop to the meeting.",
+    "example_ru": "Пожалуйста, принеси свой ноутбук на встречу.",
+    "level": "A1"
+  },
+  {
+    "id": 14,
+    "word": "call",
+    "translation": "Звонить / называть",
+    "example": "I’ll call you later this evening.",
+    "example_ru": "Я позвоню тебе позже вечером.",
+    "level": "A1"
+  },
+  {
+    "id": 15,
+    "word": "come",
+    "translation": "Приходить",
+    "example": "Come to my house for dinner tomorrow.",
+    "example_ru": "Приходи ко мне домой на ужин завтра.",
+    "level": "A1"
+  },
+  {
+    "id": 16,
+    "word": "day",
+    "translation": "День",
+    "example": "It’s been a long day at work.",
+    "example_ru": "Это был долгий рабочий день.",
+    "level": "A1"
+  },
+  {
+    "id": 17,
+    "word": "do",
+    "translation": "Делать",
+    "example": "What do you do in your free time?",
+    "example_ru": "Что ты делаешь в свободное время?",
+    "level": "A1"
+  },
+  {
+    "id": 18,
+    "word": "even",
+    "translation": "Даже / ровный",
+    "example": "Even children can understand this concept.",
+    "example_ru": "Даже дети могут понять эту концепцию.",
+    "level": "A2"
+  },
+  {
+    "id": 19,
+    "word": "every",
+    "translation": "Каждый",
+    "example": "I go jogging every morning.",
+    "example_ru": "Я бегаю каждое утро.",
+    "level": "A1"
+  },
+  {
+    "id": 20,
+    "word": "find",
+    "translation": "Находить",
+    "example": "I can’t find my keys anywhere.",
+    "example_ru": "Я нигде не могу найти свои ключи.",
+    "level": "A1"
+  },
+  {
+    "id": 21,
+    "word": "first",
+    "translation": "Первый",
+    "example": "She was the first to arrive at the party.",
+    "example_ru": "Она была первой, кто пришёл на вечеринку.",
+    "level": "A1"
+  },
+  {
+    "id": 22,
+    "word": "get",
+    "translation": "Получать / добираться",
+    "example": "I need to get some groceries after work.",
+    "example_ru": "Мне нужно купить продукты после работы.",
+    "level": "A1"
+  },
+  {
+    "id": 23,
+    "word": "give",
+    "translation": "Давать",
+    "example": "Can you give me a hand with this box?",
+    "example_ru": "Можешь помочь мне с этой коробкой?",
+    "level": "A1"
+  },
+  {
+    "id": 24,
+    "word": "go",
+    "translation": "Идти / ехать",
+    "example": "Let’s go to the park this afternoon.",
+    "example_ru": "Пойдём в парк сегодня днём.",
+    "level": "A1"
+  },
+  {
+    "id": 25,
+    "word": "good",
+    "translation": "Хороший",
+    "example": "This is a good place to relax.",
+    "example_ru": "Это хорошее место для отдыха.",
+    "level": "A1"
+  },
+  {
+    "id": 26,
+    "word": "have",
+    "translation": "Иметь",
+    "example": "I have two cats and a dog.",
+    "example_ru": "У меня две кошки и собака.",
+    "level": "A1"
+  },
+  {
+    "id": 27,
+    "word": "help",
+    "translation": "Помогать",
+    "example": "Can you help me with my homework?",
+    "example_ru": "Можешь помочь мне с домашней работой?",
+    "level": "A1"
+  },
+  {
+    "id": 28,
+    "word": "just",
+    "translation": "Только что / просто",
+    "example": "I just finished writing a sentence for you.",
+    "example_ru": "Я только что закончил писать предложение для тебя.",
+    "level": "A2"
+  },
+  {
+    "id": 29,
+    "word": "know",
+    "translation": "Знать",
+    "example": "Do you know where the nearest café is?",
+    "example_ru": "Ты знаешь, где ближайшее кафе?",
+    "level": "A1"
+  },
+  {
+    "id": 30,
+    "word": "last",
+    "translation": "Последний",
+    "example": "I saw him last week at the store.",
+    "example_ru": "Я видел его на прошлой неделе в магазине.",
+    "level": "A1"
+  },
+  {
+    "id": 31,
+    "word": "like",
+    "translation": "Нравиться / как",
+    "example": "I like to listen to music while working.",
+    "example_ru": "Мне нравится слушать музыку во время работы.",
+    "level": "A1"
+  },
+  {
+    "id": 32,
+    "word": "look",
+    "translation": "Смотреть",
+    "example": "Look at the beautiful sunset over the horizon.",
+    "example_ru": "Посмотри на красивый закат над горизонтом.",
+    "level": "A1"
+  },
+  {
+    "id": 33,
+    "word": "make",
+    "translation": "Делать / создавать",
+    "example": "Let’s make a plan for the weekend.",
+    "example_ru": "Давай составим план на выходные.",
+    "level": "A1"
+  },
+  {
+    "id": 34,
+    "word": "more",
+    "translation": "Больше",
+    "example": "I need more time to finish this task.",
+    "example_ru": "Мне нужно больше времени, чтобы закончить эту задачу.",
+    "level": "A1"
+  },
+  {
+    "id": 35,
+    "word": "most",
+    "translation": "Большинство / самый",
+    "example": "Most people prefer coffee over tea.",
+    "example_ru": "Большинство людей предпочитают кофе чаю.",
+    "level": "A2"
+  },
+  {
+    "id": 36,
+    "word": "new",
+    "translation": "Новый",
+    "example": "I bought a new phone yesterday.",
+    "example_ru": "Я купил новый телефон вчера.",
+    "level": "A1"
+  },
+  {
+    "id": 37,
+    "word": "now",
+    "translation": "Сейчас",
+    "example": "I’m busy now, can we talk later?",
+    "example_ru": "Я занят сейчас, можем поговорить позже?",
+    "level": "A1"
+  },
+  {
+    "id": 38,
+    "word": "only",
+    "translation": "Только",
+    "example": "This offer is only available today.",
+    "example_ru": "Это предложение доступно только сегодня.",
+    "level": "A2"
+  },
+  {
+    "id": 39,
+    "word": "other",
+    "translation": "Другой",
+    "example": "Do you have any other questions?",
+    "example_ru": "У тебя есть другие вопросы?",
+    "level": "A1"
+  },
+  {
+    "id": 40,
+    "word": "out",
+    "translation": "Вне / наружу",
+    "example": "Let’s go out for dinner tonight.",
+    "example_ru": "Пойдём ужинать вне дома сегодня вечером.",
+    "level": "A1"
+  },
+  {
+    "id": 41,
+    "word": "over",
+    "translation": "Над / через",
+    "example": "The plane flew over the mountains.",
+    "example_ru": "Самолёт пролетел над горами.",
+    "level": "A2"
+  },
+  {
+    "id": 42,
+    "word": "say",
+    "translation": "Говорить",
+    "example": "What did you say about the project?",
+    "example_ru": "Что ты сказал о проекте?",
+    "level": "A1"
+  },
+  {
+    "id": 43,
+    "word": "see",
+    "translation": "Видеть",
+    "example": "I can see the stars clearly tonight.",
+    "example_ru": "Я ясно вижу звёзды сегодня вечером.",
+    "level": "A1"
+  },
+  {
+    "id": 44,
+    "word": "some",
+    "translation": "Некоторые / немного",
+    "example": "Can you give me some advice?",
+    "example_ru": "Можешь дать мне немного советов?",
+    "level": "A1"
+  },
+  {
+    "id": 45,
+    "word": "take",
+    "translation": "Брать",
+    "example": "Take an umbrella, it might rain.",
+    "example_ru": "Возьми зонт, может пойти дождь.",
+    "level": "A1"
+  },
+  {
+    "id": 46,
+    "word": "think",
+    "translation": "Думать",
+    "example": "I think this is a great idea.",
+    "example_ru": "Я думаю, это отличная идея.",
+    "level": "A1"
+  },
+  {
+    "id": 47,
+    "word": "time",
+    "translation": "Время",
+    "example": "What time is the meeting tomorrow?",
+    "example_ru": "Во сколько завтра собрание?",
+    "level": "A1"
+  },
+  {
+    "id": 48,
+    "word": "up",
+    "translation": "Вверх / к",
+    "example": "She climbed up the hill quickly.",
+    "example_ru": "Она быстро забралась на холм.",
+    "level": "A1"
+  },
+  {
+    "id": 49,
+    "word": "want",
+    "translation": "Хотеть",
+    "example": "I want to learn a new language.",
+    "example_ru": "Я хочу выучить новый язык.",
+    "level": "A1"
+  },
+  {
+    "id": 50,
+    "word": "way",
+    "translation": "Путь / способ",
+    "example": "This is the fastest way to get to the station.",
+    "example_ru": "Это самый быстрый способ добраться до станции.",
+    "level": "A1"
+  },
+  {
+    "id": 51,
+    "word": "work",
+    "translation": "Работать",
+    "example": "I work as a software developer.",
+    "example_ru": "Я работаю разработчиком программного обеспечения.",
+    "level": "A1"
+  },
+  {
+    "id": 52,
+    "word": "would",
+    "translation": "Бы / хотел бы",
+    "example": "I would like to visit Paris someday.",
+    "example_ru": "Я хотел бы однажды посетить Париж.",
+    "level": "A2"
+  },
+  {
+    "id": 53,
+    "word": "year",
+    "translation": "Год",
+    "example": "This year has been very productive.",
+    "example_ru": "Этот год был очень продуктивным.",
+    "level": "A1"
+  }
+]

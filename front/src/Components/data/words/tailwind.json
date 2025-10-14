@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "word": "Compatibility",
+    "translation": "Совместимость",
+    "example": "Tailwind ensures compatibility with modern browsers.",
+    "example_ru": "Tailwind обеспечивает совместимость с современными браузерами.",
+    "level": "B2"
+  },
+  {
+    "id": 1,
+    "word": "applied",
+    "translation": "Применённый",
+    "example": "Styles are applied directly to HTML elements in Tailwind.",
+    "example_ru": "Стили применяются непосредственно к элементам HTML в Tailwind.",
+    "level": "B1"
+  },
+  {
+    "id": 2,
+    "word": "conditionally at different",
+    "translation": "Условно в разных",
+    "example": "Tailwind allows styles to be applied conditionally at different breakpoints.",
+    "example_ru": "Tailwind позволяет условно применять стили на разных контрольных точках.",
+    "level": "B2"
+  },
+  {
+    "id": 3,
+    "word": "which makes it a piece of cake",
+    "translation": "Что делает это очень простым",
+    "example": "Tailwind’s utility classes, which makes it a piece of cake to style components.",
+    "example_ru": "Утилитарные классы Tailwind, что делает стилизацию компонентов очень простой.",
+    "level": "B1"
+  },
+  {
+    "id": 4,
+    "word": "makes sure",
+    "translation": "Гарантирует / обеспечивает",
+    "example": "Tailwind makes sure your design is responsive and consistent.",
+    "example_ru": "Tailwind гарантирует, что ваш дизайн будет адаптивным и последовательным.",
+    "level": "B1"
+  }
+]

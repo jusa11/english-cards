@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "word": "indent",
+    "translation": "Отступ",
+    "example": "In Python, you must indent code blocks under colons.",
+    "example_ru": "В Python необходимо делать отступы для блоков кода после двоеточия.",
+    "level": "B1"
+  },
+  {
+    "id": 1,
+    "word": "required",
+    "translation": "Требуемый / необходимый",
+    "example": "A parameter is required to call this function.",
+    "example_ru": "Для вызова этой функции требуется параметр.",
+    "level": "B1"
+  },
+  {
+    "id": 2,
+    "word": "expressions",
+    "translation": "Выражения",
+    "example": "Python evaluates expressions to produce values.",
+    "example_ru": "Python вычисляет выражения для получения значений.",
+    "level": "B2"
+  },
+  {
+    "id": 3,
+    "word": "statements",
+    "translation": "Операторы",
+    "example": "Python statements control the flow of a program.",
+    "example_ru": "Операторы Python управляют потоком программы.",
+    "level": "B2"
+  },
+  {
+    "id": 4,
+    "word": "otherwise",
+    "translation": "В противном случае",
+    "example": "The loop continues unless the condition is false, otherwise it stops.",
+    "example_ru": "Цикл продолжается, если условие не ложно, в противном случае он останавливается.",
+    "level": "B1"
+  },
+  {
+    "id": 5,
+    "word": "shallow copy of the list",
+    "translation": "Поверхностная копия списка",
+    "example": "A shallow copy of the list only copies the top-level elements.",
+    "example_ru": "Поверхностная копия списка копирует только элементы верхнего уровня.",
+    "level": "B2"
+  },
+  {
+    "id": 6,
+    "word": "occurrences of value",
+    "translation": "Вхождения значения",
+    "example": "The count() method returns the occurrences of value in a list.",
+    "example_ru": "Метод count() возвращает количество вхождений значения в список.",
+    "level": "B2"
+  }
+]
