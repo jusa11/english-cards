@@ -1,17 +1,24 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = 0;
+const initialState = {
+  currentCard: 0,
+  activeWordId: null,
+};
 
 const activeCardsSlice = createSlice({
   name: 'activeCards',
   initialState,
   reducers: {
     setActiveCard: (state, action) => {
-      return action.payload;
+      state.currentCard = action.payload
     },
+		setActiveWordId: (state, action)=> {
+			state.activeWordId = action.payload
+		}
   },
 });
 
-export const { setActiveCard } = activeCardsSlice.actions;
-export const selectActiveCards = (state) => state.activeCard;
+export const { setActiveCard, setActiveWordId } = activeCardsSlice.actions;
+export const selectActiveCards = (state) => state.activeCard.currentCard;
+export const selectActiveWordId= (state) => state.activeCard.activeWordId;
 export default activeCardsSlice.reducer;

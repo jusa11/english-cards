@@ -1,13 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectActiveCards } from '../redux/slices/activeCardsSlice.js';
+import {
+  selectActiveCards,
+  setActiveWordId,
+} from '../redux/slices/activeCardsSlice.js';
 import CardManager from '../utils/CardManager';
 import commonWords from '../data/words/common.json';
 import reactWords from '../data/words/react.json';
 import tailwindWords from '../data/words/tailwind.json';
 import pythonWords from '../data/words/python.json';
 import gitWords from '../data/words/git.json';
-
 
 const wordSets = {
   0: commonWords,
@@ -54,7 +56,7 @@ const Card = () => {
     setCurrentCard(nextCard);
     setCurrentWord(nextCard.word);
     setIsTranslate(false);
-
+    dispatch(setActiveWordId(nextCard.id));
   };
 
   const handleTranslateCard = () => {
@@ -76,12 +78,10 @@ const Card = () => {
 
   return (
     <div className="bg-white shadow-lg rounded-3xl p-6 w-full max-w-4xl flex flex-col gap-6 items-center">
-    
       <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-3xl shadow-md w-full h-72 flex items-center justify-center text-3xl font-bold text-gray-800 select-none">
         {currentWord}
       </div>
 
-  
       <div className="flex gap-4 justify-center flex-wrap">
         {['order', 'random'].map((mode) => (
           <button
@@ -98,7 +98,6 @@ const Card = () => {
         ))}
       </div>
 
- 
       <div className="flex gap-4 justify-center flex-wrap">
         <button
           onClick={handleTranslateCard}

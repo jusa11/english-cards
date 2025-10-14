@@ -1,24 +1,25 @@
 import { useSelector } from 'react-redux';
-import { selectActiveCards } from '../redux/slices/activeCardsSlice.js';
+import { selectActiveCards, selectActiveWordId } from '../redux/slices/activeCardsSlice.js';
 import { chats } from '../data/chats.js';
 import { useEffect, useState } from 'react';
 
 const Stats = () => {
-  const activeCardId = useSelector(selectActiveCards);
-  const key = `cardManagerState_${activeCardId}`;
+  const activeCardId = useSelector(selectActiveWordId);
+  const activeCard = useSelector(selectActiveCards);
+  const key = `cardManagerState_${activeCard}`;
   const [data, setData] = useState(
     () => JSON.parse(localStorage.getItem(key)) || {}
   );
 
   useEffect(() => {
     setData(() => JSON.parse(localStorage.getItem(key) || {}));
-    console.log(activeCardId);
-  }, [activeCardId]);
+
+  }, [activeCardId, activeCard]);
 
   return (
     <div className="bg-white w-full p-6 rounded-3xl shadow-lg relative">
       <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
-        Статистика изучения слов в категории "{chats[activeCardId].name}"
+        Статистика изучения слов в категории "{chats[activeCard].name}"
       </h2>
 
       <div className="grid grid-cols-3 gap-4">
