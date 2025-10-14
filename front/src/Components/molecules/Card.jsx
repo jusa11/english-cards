@@ -1,124 +1,124 @@
+import { useEffect, useRef, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectActiveCards } from '../redux/slices/activeCardsSlice.js';
 import CardManager from '../utils/CardManager';
 import commonWords from '../data/words/common.json';
 import reactWords from '../data/words/react.json';
 import tailwindWords from '../data/words/tailwind.json';
 import pythonWords from '../data/words/python.json';
 import gitWords from '../data/words/git.json';
-import { useEffect, useRef, useState } from 'react';
-import { randomIndex } from '../utils/randomIndex';
-import { useSelector } from 'react-redux';
-import { selectActiveCards } from '../redux/slices/activeCardsSlice.js';
+
+
+const wordSets = {
+  0: commonWords,
+  1: reactWords,
+  2: tailwindWords,
+  3: pythonWords,
+  4: gitWords,
+};
 
 const Card = () => {
+  const dispatch = useDispatch();
   const activeCardId = useSelector(selectActiveCards);
+  const words = wordSets[activeCardId] || [];
 
-  const wordSets = {
-    0: commonWords,
-    1: reactWords,
-    2: tailwindWords,
-    3: pythonWords,
-    4: gitWords,
-  };
-
-  const words = wordSets[activeCardId];
-
-  const cardManagerRef = useRef(new CardManager(words, 'order'));
+  const cardManagerRef = useRef(new CardManager(words, 'order', activeCardId));
   const cardManager = cardManagerRef.current;
-  const [currentCard, setCurrentCard] = useState(
-    cardManager.cards[randomIndex(words.length)]
+
+  const [currentCard, setCurrentCard] = useState(() =>
+    cardManager.getStats().currentPosition >= 0
+      ? cardManager.cards[cardManager.getStats().currentPosition]
+      : cardManager.initCard()
   );
   const [currentWord, setCurrentWord] = useState(currentCard.word);
   const [isTranslate, setIsTranslate] = useState(false);
   const [currentMode, setCurrentMode] = useState('order');
 
   useEffect(() => {
-    if (words.length > 0) {
-      cardManagerRef.current = new CardManager(words, currentMode);
-      const cardManager = cardManagerRef.current;
-      const newCard = cardManager.cards[randomIndex(words.length)];
-      setCurrentCard(newCard);
-      setCurrentWord(newCard.word);
-      setIsTranslate(false);
-    }
+    cardManagerRef.current = new CardManager(words, currentMode, activeCardId);
+    const card =
+      cardManagerRef.current.getStats().currentPosition >= 0
+        ? cardManagerRef.current.cards[
+            cardManagerRef.current.getStats().currentPosition
+          ]
+        : cardManagerRef.current.getCard();
+
+    setCurrentCard(card);
+    setCurrentWord(card.word);
+    setIsTranslate(false);
   }, [activeCardId]);
 
-  const handleNextCard = () => {
-    const newCard = cardManager.getCard();
-    setCurrentCard(newCard);
-    setCurrentWord(newCard.word);
+  const handleNextCard = (known) => {
+    if (known) cardManager.addComplete();
+    const nextCard = cardManager.getCard();
+    setCurrentCard(nextCard);
+    setCurrentWord(nextCard.word);
     setIsTranslate(false);
+
   };
 
   const handleTranslateCard = () => {
-    if (isTranslate) {
-      setCurrentWord(currentCard.word);
-      setIsTranslate(false);
-    } else {
-      setCurrentWord(currentCard.translation);
-      setIsTranslate(true);
-    }
+    setCurrentWord(isTranslate ? currentCard.word : currentCard.translation);
+    setIsTranslate(!isTranslate);
   };
 
   const handleChangeMode = (mode) => {
     setCurrentMode(mode);
     cardManager.mode = mode;
+    const card =
+      cardManager.getStats().currentPosition >= 0
+        ? cardManager.cards[cardManager.getStats().currentPosition]
+        : cardManager.getCard();
+    setCurrentCard(card);
+    setCurrentWord(card.word);
+    setIsTranslate(false);
   };
 
   return (
-    <div>
-      <>
-        {/* Кнопки выбора режима */}
-        <div className="flex gap-4 justify-center mt-4">
-          <button
-            onClick={() => handleChangeMode('order')}
-            className={`px-6 py-2 rounded-xl shadow-md transition ${
-              currentMode === 'order'
-                ? 'bg-green-500 text-white'
-                : 'bg-gray-200 text-gray-700'
-            }`}
-          >
-            По порядку
-          </button>
+    <div className="bg-white shadow-lg rounded-3xl p-6 w-full max-w-4xl flex flex-col gap-6 items-center">
+    
+      <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-3xl shadow-md w-full h-72 flex items-center justify-center text-3xl font-bold text-gray-800 select-none">
+        {currentWord}
+      </div>
 
+  
+      <div className="flex gap-4 justify-center flex-wrap">
+        {['order', 'random'].map((mode) => (
           <button
-            onClick={() => handleChangeMode('random')}
+            key={mode}
+            onClick={() => handleChangeMode(mode)}
             className={`px-6 py-2 rounded-xl shadow-md transition ${
-              currentMode === 'random'
+              currentMode === mode
                 ? 'bg-green-500 text-white'
                 : 'bg-gray-200 text-gray-700'
             }`}
           >
-            Случайно
+            {mode === 'order' ? 'По порядку' : 'Случайно'}
           </button>
-        </div>
-        {/* Карточка */}
-        <div
-          className="bg-gray-200 p-4 shadow-md rounded-3xl border border-gray-300 w-[60%] 
-          m-auto h-96 flex items-center justify-center text-2xl font-semibold select-none"
+        ))}
+      </div>
+
+ 
+      <div className="flex gap-4 justify-center flex-wrap">
+        <button
+          onClick={handleTranslateCard}
+          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md transition"
         >
-          {currentWord}
-        </div>
-
-        {/* Кнопки управления */}
-        <div className="flex gap-4 justify-center mt-2">
-          <button
-            onClick={handleTranslateCard}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md transition"
-          >
-            Показать перевод
-          </button>
-
-          <button
-            onClick={handleNextCard}
-            className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl shadow-md transition"
-          >
-            Следующая
-          </button>
-        </div>
-
-        {/* Индикатор прогресса */}
-        <p className="flex justify-center mt-4 text-gray-500 text-lg">1 / 10</p>
-      </>
+          Показать перевод
+        </button>
+        <button
+          onClick={() => handleNextCard(true)}
+          className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl shadow-md transition"
+        >
+          Знаю
+        </button>
+        <button
+          onClick={() => handleNextCard(false)}
+          className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-xl shadow-md transition"
+        >
+          Не знаю
+        </button>
+      </div>
     </div>
   );
 };

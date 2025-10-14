@@ -6,12 +6,12 @@ const isShare = createSlice({
   name: 'share',
   initialState,
   reducers: {
-    setShare: (state, action) => {
+    setOverlayStats: (state, action) => {
       return action.payload;
     },
   },
 });
 
-export const { setShare } = isShare.actions;
+export const { setOverlayStats } = isShare.actions;
 export const selectShare = (state) => state.isShare;
 export default isShare.reducer;

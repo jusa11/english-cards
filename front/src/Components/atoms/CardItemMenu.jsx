@@ -2,10 +2,13 @@ import { useDispatch } from 'react-redux';
 import { chats } from '../data/chats';
 import {
   setActiveCard,
+  selectActiveCards,
 } from '../redux/slices/activeCardsSlice';
+import { useSelector } from 'react-redux';
 
 const CardMenuItem = ({ collapsed }) => {
   const dispatch = useDispatch();
+  const activeItem = useSelector(selectActiveCards);
 
   const handleActiveCard = (id) => {
     dispatch(setActiveCard(id));
@@ -17,7 +20,9 @@ const CardMenuItem = ({ collapsed }) => {
         <div key={chat.id} className="relative group">
           <button
             onClick={() => handleActiveCard(chat.id)}
-            className="p-2 hover:bg-zinc-800 rounded-lg w-full text-left"
+            className={`p-2 hover:bg-zinc-800 rounded-lg w-full text-left ${
+              activeItem === chat.id ? 'bg-zinc-800' : ''
+            }`}
           >
             {collapsed ? (
               <span className="text-lg font-bold">{chat.name[0]}</span>

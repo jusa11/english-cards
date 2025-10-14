@@ -1,11 +1,11 @@
-import { setShare } from '../redux/slices/shareSlice';
+import { setOverlayStats } from '../redux/slices/shareSlice';
 import { useDispatch } from 'react-redux';
 
 const ShareButton = () => {
   const dispatch = useDispatch();
 	
   const handleShare = () => {
-    dispatch(setShare(true));
+    dispatch(setOverlayStats(true));
   };
 
   return (

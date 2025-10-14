@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Header from './Components/organisms/Header';
 import SideBar from './Components/organisms/SideBar';
 import Content from './Components/organisms/Content';
-import ShareOverlay from './Components/atoms/ShareOverlay';
+import Stats from './Components/atoms/Stats';
 import { useSelector } from 'react-redux';
 import { selectShare } from './Components/redux/slices/shareSlice';
 
@@ -23,7 +23,7 @@ function App() {
           <Content />
         </div>
       </div>
-      {isShare && <ShareOverlay />}
+      {isShare && <Stats />}
     </>
   );
 }
