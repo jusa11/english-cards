@@ -1,10 +1,9 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch,useSelector } from 'react-redux';
 import { chats } from '../data/chats';
 import {
   setActiveCard,
   selectActiveCards,
 } from '../redux/slices/activeCardsSlice';
-import { useSelector } from 'react-redux';
 
 const CardMenuItem = ({ collapsed }) => {
   const dispatch = useDispatch();

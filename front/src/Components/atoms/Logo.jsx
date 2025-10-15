@@ -1,5 +1,5 @@
-import { selectCollapsed, setCollapsed } from '../redux/slices/collapsedSlice';
 import { useSelector, useDispatch } from 'react-redux';
+import { selectCollapsed, setCollapsed } from '../redux/slices/collapsedSlice';
 
 const Logo = () => {
   const collapsed = useSelector(selectCollapsed);

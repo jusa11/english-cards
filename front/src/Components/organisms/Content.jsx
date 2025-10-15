@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import Stats from '../atoms/Stats';
-import Card from '../molecules/Card';
+import StatsCard from '../molecules/StatsCard'
+import WordCard from '../molecules/WordCard';
 
 const Content = () => {
   const contentRef = useRef(null);
@@ -11,8 +11,8 @@ const Content = () => {
         ref={contentRef}
         className="flex flex-col items-center gap-10 w-full"
       >
-        <Card />
-        <Stats />
+        <WordCard />
+        <StatsCard />
       </main>
     </div>
   );

@@ -4,12 +4,13 @@ import {
   selectActiveCards,
   setActiveWordId,
 } from '../redux/slices/activeCardsSlice.js';
-import CardManager from '../utils/CardManager';
+import CardManager from '../utils/CardManager.js';
 import commonWords from '../data/words/common.json';
 import reactWords from '../data/words/react.json';
 import tailwindWords from '../data/words/tailwind.json';
 import pythonWords from '../data/words/python.json';
 import gitWords from '../data/words/git.json';
+import CardButton from '../atoms/CardButton.jsx';
 
 const wordSets = {
   0: commonWords,
@@ -19,7 +20,7 @@ const wordSets = {
   4: gitWords,
 };
 
-const Card = () => {
+const WordCard = () => {
   const dispatch = useDispatch();
   const activeCardId = useSelector(selectActiveCards);
   const words = wordSets[activeCardId] || [];
@@ -84,42 +85,42 @@ const Card = () => {
 
       <div className="flex gap-4 justify-center flex-wrap">
         {['order', 'random'].map((mode) => (
-          <button
+          <CardButton
             key={mode}
-            onClick={() => handleChangeMode(mode)}
-            className={`px-6 py-2 rounded-xl shadow-md transition ${
+            action={() => handleChangeMode(mode)}
+            bgColor={
               currentMode === mode
-                ? 'bg-green-500 text-white'
-                : 'bg-gray-200 text-gray-700'
-            }`}
-          >
-            {mode === 'order' ? 'По порядку' : 'Случайно'}
-          </button>
+                ? 'bg-green-500 '
+                : 'bg-gray-200'
+            }
+            hoverColor={'hover:bg-blue-600'}
+            text={mode === 'order' ? 'По порядку' : 'Случайно'}
+          />
         ))}
       </div>
 
       <div className="flex gap-4 justify-center flex-wrap">
-        <button
-          onClick={handleTranslateCard}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl shadow-md transition"
-        >
-          Показать перевод
-        </button>
-        <button
-          onClick={() => handleNextCard(true)}
-          className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-xl shadow-md transition"
-        >
-          Знаю
-        </button>
-        <button
-          onClick={() => handleNextCard(false)}
-          className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-xl shadow-md transition"
-        >
-          Не знаю
-        </button>
+        <CardButton
+          action={handleTranslateCard}
+          bgColor={'bg-blue-500'}
+          hoverColor={'hover:bg-blue-600'}
+          text={'Показать перевод'}
+        />
+        <CardButton
+          action={() => handleNextCard(true)}
+          bgColor={'bg-green-500'}
+          hoverColor={'hover:bg-green-600'}
+          text={'Знаю'}
+        />
+        <CardButton
+          action={() => handleNextCard(false)}
+          bgColor={'bg-red-500'}
+          hoverColor={'hover:bg-red-600'}
+          text={'Не знаю'}
+        />
       </div>
     </div>
   );
 };
 
-export default Card;
+export default WordCard;

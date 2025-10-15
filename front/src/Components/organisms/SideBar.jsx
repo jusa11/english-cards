@@ -1,7 +1,8 @@
+import { useSelector } from 'react-redux';
+import { selectCollapsed } from '../redux/slices/collapsedSlice';
 import CardMenuItem from '../atoms/CardItemMenu';
 import Logo from '../atoms/Logo';
-import { selectCollapsed } from '../redux/slices/collapsedSlice';
-import { useSelector } from 'react-redux';
+import TitleMenuItem from '../atoms/TitleMenuItem';
 
 const SideBar = () => {
   const collapsed = useSelector(selectCollapsed);
@@ -11,15 +12,7 @@ const SideBar = () => {
       ${collapsed ? 'w-16 p-2 items-center' : 'w-64 p-4'}`}
     >
       <Logo />
-
-      <div
-        className={`mt-10 w-full text-sm text-gray-500 ${
-          collapsed && 'hidden'
-        }`}
-      >
-        {collapsed ? 'К' : 'Карточки'}
-      </div>
-
+      <TitleMenuItem/>
       <CardMenuItem collapsed={collapsed} />
     </aside>
   );
