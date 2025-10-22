@@ -88,7 +88,13 @@ Frontend Developer
 💬 *“Each flashcard brings you closer to fluency.”*
 
 ---
+<<<<<<< HEAD
 
 > 🧠 This README description was generated with the help of Artificial Intelligence (GPT-5, Jarvis).
 
 ```
+=======
+🧠 This README description was generated with the help of Artificial Intelligence (GPT-5, Jarvis).
+
+
+>>>>>>> b1e8b73bae12f61e81774de604da6ff99f3209f1
