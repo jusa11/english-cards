@@ -4,10 +4,10 @@ class CardManager {
     this.mode = mode;
     this.setId = setId;
     this.currentPosition = -1;
-    this.complete = 0;
+    this.complete = [];
 
     this.loadFromLocalStorage();
-    this.initCard(); 
+    this.initCard();
   }
 
   initCard = () => {
@@ -38,19 +38,21 @@ class CardManager {
   };
 
   addComplete = () => {
-    if (this.complete < this.cards.length) {
-      this.complete += 1;
+    const cardId = this.cards[this.currentPosition].id;
+    if (!this.complete.includes(cardId)) {
+      this.complete.push(cardId);
       this.saveToLocalStorage();
+      console.log(this.complete);
     }
   };
 
   getStats = () => ({
     total: this.cards.length,
-    complete: this.complete,
-    howMuchLeft: this.cards.length - this.complete,
+    complete: this.complete.length,
+    howMuchLeft: this.cards.length - this.complete.length,
     currentPosition: this.currentPosition,
     mode: this.mode,
-    progress: Math.round((this.complete * 100) / this.cards.length),
+    progress: Math.round((this.complete.length * 100) / this.cards.length),
   });
 
   saveToLocalStorage = () => {
@@ -67,12 +69,24 @@ class CardManager {
         const parsed = JSON.parse(data);
         this.mode = parsed.mode ?? 'order';
         this.currentPosition = parsed.currentPosition ?? -1;
-        this.complete = parsed.complete ?? 0;
+        this.complete = Array.isArray(parsed.complete) ? parsed.complete : [];
       } catch (error) {
         console.error(`Ошибка при загрузке статистики ${error}`);
+        this.complete = [];
       }
     }
   };
+
+  showUnknownCards() {
+    return this.cards.filter((card) => !this.complete.includes(card.id));
+  }
+
+  resetStats() {
+    this.currentPosition = -1;
+    this.complete = [];
+    const key = `cardManagerState_${this.setId}`;
+    localStorage.removeItem(key);
+  }
 }
 
 export default CardManager;

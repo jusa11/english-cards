@@ -8,8 +8,9 @@ import { chats } from '../data/chats.js';
 import StatItem from '../atoms/StatItem.jsx';
 import ProgressBar from '../atoms/ProgressBar.jsx';
 
+
 const StatsCard = () => {
-  const activeCardId = useSelector(selectActiveWordId);
+  const activeWordId = useSelector(selectActiveWordId);
   const activeCard = useSelector(selectActiveCards);
   const key = `cardManagerState_${activeCard}`;
   const [data, setData] = useState(
@@ -18,7 +19,10 @@ const StatsCard = () => {
 
   useEffect(() => {
     setData(() => JSON.parse(localStorage.getItem(key) || {}));
-  }, [activeCardId, activeCard]);
+  }, [activeWordId, activeCard]);
+
+
+
 
   return (
     <div className="bg-white w-full p-6 rounded-3xl shadow-lg relative">
@@ -26,7 +30,7 @@ const StatsCard = () => {
         Статистика изучения слов в категории "{chats[activeCard].name}"
       </h2>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4 md: gap-1">
         <StatItem
           title={'Всего слов'}
           bgColor={'bg-blue-100'}
@@ -53,6 +57,7 @@ const StatsCard = () => {
           Прогресс изучения:
         </p>
         <ProgressBar data={data} />
+				
       </div>
     </div>
   );

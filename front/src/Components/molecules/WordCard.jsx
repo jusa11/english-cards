@@ -36,6 +36,7 @@ const WordCard = () => {
   const [currentWord, setCurrentWord] = useState(currentCard.word);
   const [isTranslate, setIsTranslate] = useState(false);
   const [currentMode, setCurrentMode] = useState('order');
+  const [unknownCards, setUnknownCards] = useState([]);
 
   useEffect(() => {
     cardManagerRef.current = new CardManager(words, currentMode, activeCardId);
@@ -77,26 +78,19 @@ const WordCard = () => {
     setIsTranslate(false);
   };
 
+  const handleClearStats = () => {
+    cardManager.resetStats();
+  };
+
+  const handleShowUnKnownCards = () => {
+    const cards = cardManager.showUnknownCards();
+    setUnknownCards(cards);
+  };
+
   return (
     <div className="bg-white shadow-lg rounded-3xl p-6 w-full max-w-4xl flex flex-col gap-6 items-center">
-      <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-3xl shadow-md w-full h-72 flex items-center justify-center text-3xl font-bold text-gray-800 select-none">
+      <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-3xl shadow-md w-full md:h-72 flex items-center justify-center text-3xl font-bold text-gray-800 select-none">
         {currentWord}
-      </div>
-
-      <div className="flex gap-4 justify-center flex-wrap">
-        {['order', 'random'].map((mode) => (
-          <CardButton
-            key={mode}
-            action={() => handleChangeMode(mode)}
-            bgColor={
-              currentMode === mode
-                ? 'bg-green-500 '
-                : 'bg-gray-200'
-            }
-            hoverColor={'hover:bg-blue-600'}
-            text={mode === 'order' ? 'По порядку' : 'Случайно'}
-          />
-        ))}
       </div>
 
       <div className="flex gap-4 justify-center flex-wrap">
@@ -107,17 +101,40 @@ const WordCard = () => {
           text={'Показать перевод'}
         />
         <CardButton
-          action={() => handleNextCard(true)}
-          bgColor={'bg-green-500'}
-          hoverColor={'hover:bg-green-600'}
-          text={'Знаю'}
-        />
-        <CardButton
           action={() => handleNextCard(false)}
           bgColor={'bg-red-500'}
           hoverColor={'hover:bg-red-600'}
           text={'Не знаю'}
         />
+        <CardButton
+          action={() => handleNextCard(true)}
+          bgColor={'bg-green-500'}
+          hoverColor={'hover:bg-green-600'}
+          text={'Знаю'}
+        />
+      </div>
+
+      <div className="flex gap-4 justify-center flex-wrap">
+        {['order', 'random'].map((mode) => (
+          <CardButton
+            key={mode}
+            action={() => handleChangeMode(mode)}
+            bgColor={currentMode === mode ? 'bg-green-500 ' : 'bg-gray-200'}
+            hoverColor={'hover:bg-blue-600'}
+            text={mode === 'order' ? 'По порядку' : 'Случайно'}
+          />
+        ))}
+        <button onClick={handleClearStats}>Обнулить</button>
+        <button onClick={handleShowUnKnownCards}>
+          Показать карточки которые не знаю{' '}
+        </button>
+      </div>
+      <div className="flex flex-col gap-2 mt-4 w-full">
+        {unknownCards.map((card, index) => (
+          <div key={card.id} className="p-2 bg-gray-100 rounded-lg w-full">
+            {index}. {card.word}
+          </div>
+        ))}
       </div>
     </div>
   );
